@@ -20,7 +20,7 @@ span{
 .container{
     margin-top: 150px;
     margin-left: 25%;
-    width: 55%;
+    width: 60%;
     height: 100%;
     font-size:20px;
     background:whitesmoke;
@@ -105,10 +105,13 @@ i{
     font-size: 20px;
     font-weight: 300;
 }
-@media only screen and(max-width: 800px) {
+@media only screen and(max-width: 768px) {
     .generate {
-      top:60%;
-    }
+    width: 35%;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 130px;
+}  
     
 } 
 
