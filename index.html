@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>VALIDATION </title>
+    <script src="https://kit.fontawesome.com/1d62d9313d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Heading content -->
+        <h3>Validation Of Email &
+            <br> <span>Password Generetion</span>
+        </h3>
+        <!-- Main content -->
+        <form class="details" name="form" id="form">
+            <!-- Email details -->
+            <p id="error" hidden>Please fill out all fields.</p>
+                Email &nbsp;: <input type="email" placeholder="Email" name="email" class="email" id="email" required>
+            <br> 
+            Password &nbsp; :<input type="text" name="" placeholder=" Create Password " 
+            id="password" readonly="" required> 
+            <div class="generate"  onclick="getPassword();" id="generate">
+                Generate Password
+                <div id="pass" > 
+                    <input type="number" class="length" min="0" max="16" value="0" id="pass-length">
+                </div>
+            </div>
+            <!-- <div id="password1"></div> -->
+            <button class="btn">Submit</button>
+        </form>
+        <p id="thanks" hidden>Your data has been received. Thanks!</p>
+        <footer id="footer-content">
+            Designed By<i class="fas fa-heartbeat"></i>Kalai
+        </footer>
+    </div>
+
+</body>
+<script src="pass.js"></script>
+
+</html>

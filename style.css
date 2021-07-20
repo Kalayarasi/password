@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+body{
+    margin: 0;
+    background: linear-gradient(to right, #6cc975, #4ca2cd);
+    user-select: none;
+    font-family: 'Langar', cursive;
+}
+h3{
+    margin-top: 10%;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    color:black;
+}
+span{
+    margin-top: 10px;
+    margin-left:100px;
+}
+.container{
+    margin-top: 150px;
+    margin-left: 25%;
+    width: 55%;
+    height: 100%;
+    font-size:20px;
+    background:whitesmoke;
+}
+.details{
+    margin-top: 20px;
+    margin-left: 20%;
+    padding: 8px;
+    align-items: center;
+}
+
+.email{
+    padding: 10px;
+    margin-top: -20px;
+    margin-bottom: 18px;
+    margin-left: 43px;
+}
+p{ 
+    color:whitesmoke;
+    width: 450px;
+    margin-top: 50px;
+    margin-left:150px;
+    background: linear-gradient(to bottom, #f1a863, #4354eb);
+    text-align: center;
+    font-weight: 200;
+    font-size: 20px;
+}
+#password{
+    letter-spacing: 1px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.btn{
+    width: 35%;
+    color: whitesmoke;
+    padding: 5px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    border-radius: 15px;
+    text-decoration: none;
+    box-shadow: 0;
+    background: linear-gradient(to right, #7303c0, #ec38bc);
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    text-transform:initial;
+}
+#error{
+    font-size: small;
+    width: 10px;
+    height: auto;
+}
+.btn:hover{
+  background-color:pink;
+}
+.generate{
+    width: 30%;
+    position: relative;
+    cursor: pointer;
+    padding: 2px;
+    font-size: 15px;
+    margin-top: -53px;
+    margin-left: 313px;
+    color: whitesmoke;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    background: linear-gradient(to right, #a795f7, #928dab); 
+}
+.generate:active{
+    background: rgb(241, 162, 162);
+}
+#footer-content{
+    text-align: center;
+}
+i{
+    padding: 5px;
+    color: red;
+    font-size: 20px;
+    font-weight: 300;
+}
+@media only screen and(max-width: 800px) {
+    .generate {
+      top:60%;
+    }
+    
+} 
+
